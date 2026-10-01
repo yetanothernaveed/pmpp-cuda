@@ -23,7 +23,7 @@ echo "[+] Home directory: $USER_HOME"
 # 2. Add GitHub CLI official repository
 echo "[+] Adding official GitHub CLI repository..."
 apt-get update -y
-apt-get install -y curl wget gpg
+apt-get install -y curl wget gpg chafa
 
 mkdir -p -m 755 /etc/apt/keyrings
 wget -qO- https://cli.github.com/packages/githubcli-archive-keyring.gpg | tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null
