@@ -1,3 +1,4 @@
 *.out
 .env
+.vscode
 personal_access_token.txt
