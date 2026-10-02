@@ -12,7 +12,7 @@
             exit(EXIT_FAILURE); \
         } \
     } while (0)
-#define PATCH_SIZE 3
+#define PATCH_SIZE 10
 #define BLUR_SIZE ((PATCH_SIZE - 1) / 2)
 
 #include <stdio.h>
